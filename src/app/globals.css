@@ -1,0 +1,64 @@
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner_text{
+  margin-top: 200px; 
+  padding-left:60px;
+  color:white;
+}
+
+.bannerTextLine{
+  width: 800px;
+}
+
+@media (max-width: 767px) {
+  .banner-image {
+    height: 50vh;
+  }
+  .banner_text{
+    margin-top: 78px;
+    padding-left: 60px;
+    color: white;
+  }
+  .bannerTextLine{
+    margin-top: 150px;
+    width: 400px;
+  }
+}
+
+.text-container {
+  padding: 30px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+
+.custom-modal .modal-dialog {
+  max-width: 800px; /* Set the desired maximum width */
+  width: 90%; /* Set the desired width */
+}
+
+.custom-modal .modal-content {
+  width: 100%; /* Set the content width to 100% of the modal */
+}
+
+.modal-dialog{
+  max-width: 900px !important;
+}
+
+.rates{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rates-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 400px;
+}
